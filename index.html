@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Stéphane 'Bakeneko' Dupont" />
+	    <meta name="viewport" content="width = 1000" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Dango Kazoku</title>
+		<style>
+			body{ background-color: #333; margin:0px; padding:0px; overflow: hidden; }
+			#guide{ background-color: #222; color: #999; position: absolute; z-index:5; margin: 5px; padding: 5px; }
+			#warning{ color: #fff; }
+			canvas{ }
+			a:link, a:visited, a:active{ text-decoration: none; color: #999; }
+		</style>
+	</head>
+	<body>
+		<div id="guide">
+			<h3>Dango Kazoku</h3>
+			<p>Use the mouse to drag or divide (doubleclick) dango.<br />Use up and down keys to add/remove dango.<br />
+			Use left and right keys to change dango's skin.<br />Use + and - keys (num pad) to change dango's size.<br />
+			You can shake the window to disturb the dango.<br />Some skins allow to merge dango.<br />
+			<strong>TODO</strong> :<br /> 
+			- handle dango-dango collisions<br /> 
+			- following eyes<br /> 
+			- pissed off behavior<br /> 
+			- auto-restore angle
+			</p>
+		</div>
+    	<canvas id="world">
+			<p id="warning">You need a modern browser like <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla-europe.org/fr/firefox/">Firefox</a> to view this.</p>
+		</canvas> 
+		<script type="text/javascript" src="dango.js"></script>
+	</body>
+</html>
